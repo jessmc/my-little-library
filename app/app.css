@@ -1,8 +1,23 @@
 @import "tailwindcss";
+@tailwind utilities;
 
 @theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  
+  /* 🌙 Cozy Witchy Palette */
+  --color-parchment: #F1E9D2; /* warm cream */
+  --color-forest: #2F3E34;    /* deep forest green */
+  --color-sage: #A3B18A;      /* soft sage green */
+  --color-burgundy: #5A2A27;  /* muted burgundy */
+  --color-plum: #7A5C6B;      /* dusty plum */
+  --color-brass: #C4A35A;     /* golden brass */
+  --color-pumpkin: #D9822B;   /* cozy autumn accent */
+
+  /* Fonts */
+  --font-merriweather: "Merriweather", serif;
+  --font-libre: "Libre Baskerville", serif;
+
+  /* Box Shadow */
+  --shadow-cozy: "0 4px 15px rgba(0,0,0,0.5)", /* candlelit soft shadow  */
 }
 
 html,
